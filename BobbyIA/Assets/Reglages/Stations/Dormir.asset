@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5e6c0b6bf8f4a35b79df7c4ec04772, type: 3}
+  m_Name: Dormir
+  m_EditorClassIdentifier: 
+  stationName: 0
+  speechToDisplay: IS SLEEPING
+  emote: {fileID: 21300000, guid: 1db98cda38633488681cf17877c03354, type: 3}
+  ND: 15
+  D: 50
+  TD: 85
+  predicats:
+  - {fileID: 11400000, guid: f75aa8eac93314de3b37b13df70ed2d4, type: 2}
+  - {fileID: 11400000, guid: 83048c1fb9d044294b6b8245e0aa6233, type: 2}
+  - {fileID: 11400000, guid: a932633c481cf4ca0a585687eac9887b, type: 2}
+  - {fileID: 11400000, guid: 6ddbabd593b644359accc5692377bac2, type: 2}
+  - {fileID: 11400000, guid: 25fd8c27ddf5e4e0589f088340a8c57a, type: 2}
+  - {fileID: 11400000, guid: 9db6fd1813cbf4b3db2d7a0340abb407, type: 2}
+  modifRessources:
+  - variableConcerned: {fileID: 11400000, guid: 8f8f2dfbf90c6434d985626ca08d2696,
+      type: 2}
+    modifValue: -50
+  - variableConcerned: {fileID: 11400000, guid: d27683b22ccc74f47b98b976f8714cdf,
+      type: 2}
+    modifValue: 30
+  - variableConcerned: {fileID: 11400000, guid: d3f18c9620afa42b8990e61747c87adf,
+      type: 2}
+    modifValue: 20
+  - variableConcerned: {fileID: 11400000, guid: 1ec03b2096fd74e7fa480b8848875d14,
+      type: 2}
+    modifValue: 20

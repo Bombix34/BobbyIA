@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1415564896074318}
+  m_IsPrefabAsset: 1
+--- !u!1 &1415564896074318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4606419474350064}
+  - component: {fileID: 114282643535458884}
+  - component: {fileID: 114771797590804446}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4606419474350064
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415564896074318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114282643535458884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415564896074318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34ed6c90b2d94d2585cde8a33ad026b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sommeil: {fileID: 11400000, guid: 8f8f2dfbf90c6434d985626ca08d2696, type: 2}
+  travail: {fileID: 11400000, guid: d3f18c9620afa42b8990e61747c87adf, type: 2}
+  ennui: {fileID: 11400000, guid: 1ec03b2096fd74e7fa480b8848875d14, type: 2}
+  faim: {fileID: 11400000, guid: d27683b22ccc74f47b98b976f8714cdf, type: 2}
+--- !u!114 &114771797590804446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415564896074318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dedbe725d0c444b8d9546c07ae99376b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stations:
+  - {fileID: 11400000, guid: 78e1c74a00fd1409680c480e2d1c5d7f, type: 2}
+  - {fileID: 11400000, guid: cab7f98276cfb441aadd631a612d8c1a, type: 2}
+  - {fileID: 11400000, guid: ec194aea7ec494232a4fc4e6359f42bc, type: 2}
+  - {fileID: 11400000, guid: ca91020f5aee44dcb9cd5ea0108b82d3, type: 2}
+  - {fileID: 11400000, guid: 5d64807efc4ea4a13872ab483e81313b, type: 2}
+  - {fileID: 11400000, guid: 66c41af7d72f04d58ae3e56f0aed5afd, type: 2}
+  - {fileID: 11400000, guid: b4199a6034a9741d092b0ddf04475c80, type: 2}
+  - {fileID: 11400000, guid: 7dfb0729596804964a2604daeec0ff0c, type: 2}
+  - {fileID: 11400000, guid: 20b4e542b059947329e909dd1df6eeb0, type: 2}

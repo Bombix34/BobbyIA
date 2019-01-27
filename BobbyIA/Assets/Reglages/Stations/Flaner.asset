@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5e6c0b6bf8f4a35b79df7c4ec04772, type: 3}
+  m_Name: Flaner
+  m_EditorClassIdentifier: 
+  stationName: 7
+  speechToDisplay: IS STROLLING AROUND
+  emote: {fileID: 21300000, guid: 1fba8a7b0e3c843089000682aed793e6, type: 3}
+  ND: 10
+  D: 40
+  TD: 70
+  predicats:
+  - {fileID: 11400000, guid: 8572133a6b12a4870b91951d773704b8, type: 2}
+  - {fileID: 11400000, guid: c91385be99185454ea1e83380d5482c8, type: 2}
+  - {fileID: 11400000, guid: 3e8fab081fb2b4d58a64928dc432793c, type: 2}
+  modifRessources:
+  - variableConcerned: {fileID: 11400000, guid: d27683b22ccc74f47b98b976f8714cdf,
+      type: 2}
+    modifValue: 20
+  - variableConcerned: {fileID: 11400000, guid: d3f18c9620afa42b8990e61747c87adf,
+      type: 2}
+    modifValue: 30
+  - variableConcerned: {fileID: 11400000, guid: 1ec03b2096fd74e7fa480b8848875d14,
+      type: 2}
+    modifValue: -20

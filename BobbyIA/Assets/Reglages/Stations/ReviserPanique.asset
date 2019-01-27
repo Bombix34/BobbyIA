@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5e6c0b6bf8f4a35b79df7c4ec04772, type: 3}
+  m_Name: ReviserPanique
+  m_EditorClassIdentifier: 
+  stationName: 2
+  speechToDisplay: IS IN PANIC
+  emote: {fileID: 21300000, guid: b77687f8352ad4ca29dbe091ed7c4fe0, type: 3}
+  ND: 15
+  D: 50
+  TD: 90
+  predicats:
+  - {fileID: 11400000, guid: 56819f436a5f6468291a2ffae71ce868, type: 2}
+  - {fileID: 11400000, guid: 7bf54a72a9e0145309364bfa91f19789, type: 2}
+  - {fileID: 11400000, guid: 3e9bc4f58b2c747148b3c06639078ebb, type: 2}
+  modifRessources:
+  - variableConcerned: {fileID: 11400000, guid: d3f18c9620afa42b8990e61747c87adf,
+      type: 2}
+    modifValue: -60
+  - variableConcerned: {fileID: 11400000, guid: d27683b22ccc74f47b98b976f8714cdf,
+      type: 2}
+    modifValue: 20
+  - variableConcerned: {fileID: 11400000, guid: 1ec03b2096fd74e7fa480b8848875d14,
+      type: 2}
+    modifValue: 30
